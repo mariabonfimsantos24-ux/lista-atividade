@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap');
+
+body{
+    background-color: rgb(159, 191, 219);
+    font-family:Geist Pixel font family from Google Fonts;
+    color:rgb(0, 0, 0)
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-align: center;
+    opacity: 0,4;
+}
+form{
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(red, green, blue, alpha)
+}
+.input{
+    width: 100%;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: large;
+    color: rgb(4, 7, 10);
+    display: block;
+}
+.input::placeholder{
+    color: rgb(64, 122, 145);
+}
+.input:focus{
+    outline-color: rgb(27, 18, 18);
+}
+.todos{
+    background: fixed;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+todos li{
+    border-top: 0cap;
+    padding: 1rem 2rem;
+    font-size: 1. 5rem;
+    cursor: pointer;
+}
+.todos li.completed{
+    color: black;
+    text-decoration: rgb(0, 102, 255) dotted line;
+}
+smll{
+    color: black;
+    margin-top:3rem ;
+    text-align:center;
+}
